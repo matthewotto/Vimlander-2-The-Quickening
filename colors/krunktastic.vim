@@ -106,8 +106,8 @@ highlight VertSplit     guifg=#616161 guibg=#000000 gui=bold ctermfg=Black cterm
 highlight Cursor        guifg=Black guibg=White ctermfg=Black ctermbg=White
 highlight CursorLine    guibg=#333333 guifg=NONE
 highlight CursorColumn  guibg=#333333 guifg=NONE
-highlight NonText       guifg=#404040 ctermfg=8
-highlight SpecialKey    guifg=#404040 ctermfg=8
+highlight NonText       guifg=Magenta ctermfg=8
+highlight SpecialKey    guifg=Magenta   ctermfg=8
 highlight Directory     none
 high link Directory     Identifier
 highlight ErrorMsg      guibg=Red ctermbg=DarkRed guifg=NONE ctermfg=NONE

@@ -39,6 +39,10 @@ set mousehide                           " Hide mouse pointer on insert mode.
 
 set whichwrap=h,l,~,[,]                 " Wrap with more keys
 set nowrap                              " Disable line wrapping
+set listchars=tab:>\ ,trail:-,extends:>,precedes:<,nbsp:+
+set list            " show trailing whiteshace and tabs
+
+
 
 " use indents of 2 spaces, and have them copied down lines:
 set expandtab

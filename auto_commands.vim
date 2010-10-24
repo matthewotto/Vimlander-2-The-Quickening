@@ -4,6 +4,7 @@ endfunction
 
 function! CustomMarkdownSettings()
   set filetype=mkd
+  set filetype=markdown
 endfunction
 
 function! CustomJsonSettings()
