@@ -16,5 +16,3 @@ nmap <F2> :NERDTreeToggle<CR>
 " AckVim: <leader>f to search
 map <leader>f :Ack<Space>
 
-" ExitInsertMode: Alternative keybinding
-imap jj <Esc>
