@@ -6,11 +6,16 @@ set antialias
 
 " Maximize: Vert and Horiz by default for macvim
 if has("gui_macvim")
+  if &background == "dark"
+    hi normal guibg=black
+    set transp=8
+  endif
   set fuoptions=maxvert,maxhorz
   set guifont=Monaco:h12
 elseif has("x11")
   set gfn=Monospace\ 11
 elseif has("gui_win32")
+  set guifont=Consolas:h10:cANSI
 endif
 
 " Hide toolbar and menus.
