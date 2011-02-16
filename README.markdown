@@ -21,7 +21,12 @@ Then, sprinkle to taste with your defaults, undoing my craziness, etc.  These fi
 
 Since I always forget how to update submodules I'm putting a note here:
 
-    git submodule init
+    git submodule update --init
+
     git submodule update
+
+    cd /submodule
+    git pull origin master
+    git commmit /submodule
 
 
