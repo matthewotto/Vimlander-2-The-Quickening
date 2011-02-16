@@ -16,3 +16,12 @@ To have your very own custom vimrc additions or custom gvimrc just create these 
     touch ~/.vim/custom_gvimrc
 
 Then, sprinkle to taste with your defaults, undoing my craziness, etc.  These files are ignored by git and enable fun for all.
+
+## A little note about submodules
+
+Since I always forget how to update submodules I'm putting a note here:
+
+    git submodule init
+    git submodule update
+
+
