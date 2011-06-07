@@ -9,7 +9,15 @@ source ~/.vim/plugin_config.vim
 source ~/.vim/auto_commands.vim
 
 " COLOR SUPPORT
-colorscheme krunktastic 
+set t_Co=256
+set background=dark
+colorscheme solarized
+set cursorline
+
+" ,e and ,v open files in the same directory as current file
+cnoremap %% <C-R>=expand('%:h').'/'<cr>
+map <leader>e :edit %%
+map <leader>v :view %%
 
 " Unbind the cursor keys in insert, normal and visual modes.
 for prefix in ['i', 'n', 'v']
