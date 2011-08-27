@@ -7,7 +7,7 @@ set antialias
 " Maximize: Vert and Horiz by default for macvim
 if has("gui_macvim")
   set fuoptions=maxvert,maxhorz
-  set guifont=Monaco:h12
+  set guifont=Inconsolata:h14
 elseif has("x11")
   set gfn=Monospace\ 11
 elseif has("gui_win32")
