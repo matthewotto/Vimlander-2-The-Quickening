@@ -61,6 +61,14 @@ set splitbelow                          " Open new horizontal split windows belo
 set splitright                          " Open new vertical split windows to the right
 "set switchbuf=useopen,usetab,split      " Don't change my current buffer on quickfix
 
+set winwidth=84
+" We have to have a winheight bigger than we want to set winminheight. But if
+" we set winheight to be huge before winminheight, the winminheight set will
+" fail.
+set winheight=10
+set winminheight=10
+set winheight=999
+
 
 " WildMenuModeConfig:
 
@@ -100,6 +108,10 @@ set incsearch
 
 " Don't highlight search result.
 set nohlsearch
+
+" Make searches case-sensitive only if they contain upper-case characters
+set ignorecase
+set smartcase
 
 " Searches wrap around the end of the file
 set wrapscan
