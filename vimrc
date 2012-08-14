@@ -1,6 +1,7 @@
 " Pathogen: Now ~/.vim/bundle will work
 call pathogen#runtime_append_all_bundles()
 call pathogen#helptags()
+
 " Source:
 source ~/.vim/global.vim
 source ~/.vim/functions.vim
@@ -11,7 +12,8 @@ source ~/.vim/auto_commands.vim
 " COLOR SUPPORT
 set t_Co=256
 set background=dark
-colorscheme solarized
+"colorscheme Tomorrow-Night-Bright
+colorscheme Solarized
 set cursorline
 
 " ,e and ,v open files in the same directory as current file
