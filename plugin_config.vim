@@ -34,3 +34,9 @@ let vimclojure#DynamicHighlighting = 1
 let NERDDefaultNesting = 0
 let NERDRemoveExtraSpaces = 1
 let NERDSpaceDelims = 1
+
+" Powerline:
+let g:Powerline_symbols = 'fancy'
+let g:Powerline_colorscheme = 'solarized256'
+
+
