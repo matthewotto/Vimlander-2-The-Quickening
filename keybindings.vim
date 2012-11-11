@@ -14,5 +14,5 @@ nmap to :tabonly<CR>
 nmap <F2> :NERDTreeToggle<CR>
 
 " AckVim: <leader>f to search
-map <leader>f :Ack<Space>
+map <leader>f :Ack!<Space>
 

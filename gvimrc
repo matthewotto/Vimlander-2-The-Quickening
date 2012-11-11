@@ -3,15 +3,17 @@ source ~/.vim/keybindings.gui.vim
 
 " Font: Choose font and enable anti-aliasing
 set antialias
-
-" Maximize: Vert and Horiz by default for macvim
 if has("gui_macvim")
-  set fuoptions=maxvert,maxhorz
   set guifont=Source\ Code\ Pro:h14
 elseif has("x11")
   set gfn=Monospace\ 11
 elseif has("gui_win32")
   set guifont=Consolas:h10:cANSI
+endif
+
+" Maximize: Vert and Horiz by default for macvim
+if has("gui_macvim")
+  set fuoptions=maxvert,maxhorz
 endif
 
 " Hide toolbar and menus.
