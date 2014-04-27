@@ -39,7 +39,7 @@ set mousehide                           " Hide mouse pointer on insert mode.
 
 set whichwrap=h,l,~,[,]                 " Wrap with more keys
 set nowrap                              " Disable line wrapping
-set listchars=tab:>\ ,trail:-,extends:>,precedes:<,nbsp:+
+set listchars=tab:>\ ,trail:¬,extends:>,precedes:<,nbsp:+
 set list            " show trailing whiteshace and tabs
 
 
