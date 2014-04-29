@@ -4,7 +4,7 @@ source ~/.vim/keybindings.gui.vim
 " Font: Choose font and enable anti-aliasing
 set antialias
 if has("gui_macvim")
-  set guifont=Source\ Code\ Pro:h14
+  set guifont=Source\ Code\ Pro\ for\ Powerline:h14
 elseif has("x11")
   set gfn=Monospace\ 11
 elseif has("gui_win32")

@@ -54,6 +54,7 @@ set shiftround
 
 set number                              " Enable line numbers
 set numberwidth=3                       " Set line number column width 
+set colorcolumn=72
 
 " WindowAndBufferManagement:
 

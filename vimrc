@@ -14,6 +14,8 @@ set t_Co=256
 set background=dark
 "colorscheme Tomorrow-Night-Bright
 colorscheme Solarized
+highlight Normal ctermbg=Black
+highlight NonText ctermbg=Black
 set cursorline
 
 " ,e and ,v open files in the same directory as current file
