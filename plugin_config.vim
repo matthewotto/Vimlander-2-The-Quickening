@@ -39,4 +39,8 @@ let NERDSpaceDelims = 1
 let g:Powerline_symbols = 'fancy'
 let g:Powerline_colorscheme = 'solarized256'
 
+" Syntastic:
+let g:syntastic_ruby_checkers = ['mri', 'rubocop']
 
+" Editorconfig:
+let g:EditorConfig_core_mode = 'external_command'
