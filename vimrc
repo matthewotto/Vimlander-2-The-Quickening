@@ -12,7 +12,7 @@ source ~/.vim/auto_commands.vim
 " COLOR SUPPORT
 set t_Co=256
 set background=dark
-colorscheme Solarized
+colorscheme base16-twilight
 highlight Normal ctermbg=Black
 highlight NonText ctermbg=Black
 set cursorline
