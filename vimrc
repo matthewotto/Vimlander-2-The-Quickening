@@ -12,7 +12,6 @@ source ~/.vim/auto_commands.vim
 " COLOR SUPPORT
 set t_Co=256
 set background=dark
-"colorscheme Tomorrow-Night-Bright
 colorscheme Solarized
 highlight Normal ctermbg=Black
 highlight NonText ctermbg=Black
