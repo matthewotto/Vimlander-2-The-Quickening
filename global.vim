@@ -16,6 +16,8 @@ endif
 filetype plugin indent on
 set nocompatible
 syntax on
+set modeline
+set modelines=5
 
 set vb t_vb=                            " Disable visual bell
 set autoread                            " Set to auto read when a file is changed from the outside
