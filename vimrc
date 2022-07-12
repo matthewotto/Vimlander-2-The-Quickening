@@ -13,8 +13,6 @@ source ~/.vim/auto_commands.vim
 set t_Co=256
 set background=dark
 colorscheme base16-twilight
-highlight Normal ctermbg=Black
-highlight NonText ctermbg=Black
 set cursorline
 
 " ,e and ,v open files in the same directory as current file
