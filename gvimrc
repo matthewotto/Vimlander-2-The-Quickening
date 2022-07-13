@@ -8,8 +8,6 @@ if has("gui_macvim")
   set guifont=Hack:h12
 elseif has("x11")
   set gfn=Monospace\ 11
-elseif has("gui_win32")
-  set guifont=Consolas:h10:cANSI
 endif
 
 " Maximize: Vert and Horiz by default for macvim
