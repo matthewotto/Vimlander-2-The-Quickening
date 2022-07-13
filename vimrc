@@ -1,7 +1,3 @@
-" Pathogen: Now ~/.vim/bundle will work
-call pathogen#runtime_append_all_bundles()
-call pathogen#helptags()
-
 " Source:
 source ~/.vim/global.vim
 source ~/.vim/functions.vim
