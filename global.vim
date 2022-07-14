@@ -90,10 +90,9 @@ set statusline+=%h%1*%m%r%w%0* " flag
 set statusline+=\ "
 set statusline+=%{fugitive#statusline()}
 set statusline+=\ "
-" set statusline+=%{rvm#statusline()}
 set statusline+=%= " right align
 set statusline+=%#warningmsg#
-set statusline+=%{SyntasticStatuslineFlag()}
+"set statusline+=%{SyntasticStatuslineFlag()}
 set statusline+=%*
 set statusline+=%-14.(%l,%c%V%)\ %<%P " offset
 
