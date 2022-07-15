@@ -10,3 +10,6 @@
 [submodule "pack/plugin/start/nerdcommenter"]
 	path = pack/plugin/start/nerdcommenter
 	url = git@github.com:preservim/nerdcommenter.git
+[submodule "pack/plugin/start/html5-vim"]
+	path = pack/plugin/start/html5-vim
+	url = git@github.com:othree/html5.vim.git
