@@ -16,3 +16,6 @@
 [submodule "pack/plugin/start/vim-css-color"]
 	path = pack/plugin/start/vim-css-color
 	url = git@github.com:ap/vim-css-color.git
+[submodule "pack/plugin/start/vim-javascript"]
+	path = pack/plugin/start/vim-javascript
+	url = git@github.com:pangloss/vim-javascript.git
