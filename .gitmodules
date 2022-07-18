@@ -19,3 +19,6 @@
 [submodule "pack/plugin/start/vim-javascript"]
 	path = pack/plugin/start/vim-javascript
 	url = git@github.com:pangloss/vim-javascript.git
+[submodule "pack/plugin/start/vim-endwise"]
+	path = pack/plugin/start/vim-endwise
+	url = git@github.com:tpope/vim-endwise.git
