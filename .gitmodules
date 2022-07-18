@@ -22,3 +22,6 @@
 [submodule "pack/plugin/start/vim-endwise"]
 	path = pack/plugin/start/vim-endwise
 	url = git@github.com:tpope/vim-endwise.git
+[submodule "pack/plugin/start/vim-ragtag"]
+	path = pack/plugin/start/vim-ragtag
+	url = git@github.com:tpope/vim-ragtag.git
