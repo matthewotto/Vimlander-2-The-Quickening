@@ -81,20 +81,20 @@ set wildignore+=*.fam                  " Ignore compiled Falcon files
 " Always show status bar
 set laststatus=2
 
-set statusline=\ "
-set statusline+=%f\ " file name
-set statusline+=[
-set statusline+=%{strlen(&ft)?&ft:'none'} " filetype
-set statusline+=]
-set statusline+=%h%1*%m%r%w%0* " flag
-set statusline+=\ "
-set statusline+=%{fugitive#statusline()}
-set statusline+=\ "
-set statusline+=%= " right align
-set statusline+=%#warningmsg#
-"set statusline+=%{SyntasticStatuslineFlag()}
-set statusline+=%*
-set statusline+=%-14.(%l,%c%V%)\ %<%P " offset
+" set statusline=\ "
+" set statusline+=%f\ " file name
+" set statusline+=[
+" set statusline+=%{strlen(&ft)?&ft:'none'} " filetype
+" set statusline+=]
+" set statusline+=%h%1*%m%r%w%0* " flag
+" set statusline+=\ "
+" set statusline+=%{fugitive#statusline()}
+" set statusline+=\ "
+" set statusline+=%= " right align
+" set statusline+=%#warningmsg#
+" "set statusline+=%{SyntasticStatuslineFlag()}
+" set statusline+=%*
+" set statusline+=%-14.(%l,%c%V%)\ %<%P " offset
 
 
 " Search:
