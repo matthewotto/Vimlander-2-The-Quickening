@@ -32,7 +32,7 @@ set infercase
 
 set matchpairs+=<:>                     " Also match angle brackets
 
-" Mouse: 
+" Mouse:
 
 set nomousefocus                        " Don't focus the window when the mouse pointer is moved.
 set mousehide                           " Hide mouse pointer on insert mode.
@@ -55,7 +55,7 @@ set shiftwidth=2
 set shiftround
 
 set number                              " Enable line numbers
-set numberwidth=3                       " Set line number column width 
+set numberwidth=3                       " Set line number column width
 set colorcolumn=72
 
 " WindowAndBufferManagement:

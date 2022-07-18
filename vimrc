@@ -26,3 +26,7 @@ endfor
 if filereadable(expand("~/.vim/custom_vimrc"))
   source ~/.vim/custom_vimrc
 endif
+
+" Force loading all packages and generate helptags
+packloadall
+silent! helptags ALL
