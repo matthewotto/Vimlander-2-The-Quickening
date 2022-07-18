@@ -37,3 +37,6 @@
 [submodule "pack/plugin/start/supertab"]
 	path = pack/plugin/start/supertab
 	url = git@github.com:ervandew/supertab.git
+[submodule "pack/plugin/start/ctrlp"]
+	path = pack/plugin/start/ctrlp
+	url = git@github.com:ctrlpvim/ctrlp.vim.git
