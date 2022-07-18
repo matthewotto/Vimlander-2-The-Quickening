@@ -13,3 +13,6 @@
 [submodule "pack/plugin/start/html5-vim"]
 	path = pack/plugin/start/html5-vim
 	url = git@github.com:othree/html5.vim.git
+[submodule "pack/plugin/start/vim-css-color"]
+	path = pack/plugin/start/vim-css-color
+	url = git@github.com:ap/vim-css-color.git
