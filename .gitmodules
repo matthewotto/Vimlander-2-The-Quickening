@@ -46,3 +46,6 @@
 [submodule "pack/plugin/start/vim-airline-themes"]
 	path = pack/plugin/start/vim-airline-themes
 	url = git@github.com:vim-airline/vim-airline-themes.git
+[submodule "pack/plugin/start/ale"]
+	path = pack/plugin/start/ale
+	url = https://github.com/dense-analysis/ale.git
