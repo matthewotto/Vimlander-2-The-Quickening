@@ -25,3 +25,6 @@
 [submodule "pack/plugin/start/vim-ragtag"]
 	path = pack/plugin/start/vim-ragtag
 	url = git@github.com:tpope/vim-ragtag.git
+[submodule "pack/plugin/start/vim-surround"]
+	path = pack/plugin/start/vim-surround
+	url = git@github.com:tpope/vim-surround.git
