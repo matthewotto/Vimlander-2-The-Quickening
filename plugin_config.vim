@@ -16,10 +16,6 @@ let NERDTreeIgnore=['\.$', '\~$']
 " Highlight ruby operators
 let ruby_operators = 1
 
-" VimRails:
-" Turn off rails bits of statusbar
-let g:rails_statusline=0
-
 " NERDCommenter:
 let NERDDefaultNesting = 0
 let NERDRemoveExtraSpaces = 1
