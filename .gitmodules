@@ -49,3 +49,6 @@
 [submodule "pack/plugin/start/ale"]
 	path = pack/plugin/start/ale
 	url = https://github.com/dense-analysis/ale.git
+[submodule "pack/plugin/start/swift-vim"]
+	path = pack/plugin/start/swift-vim
+	url = git@github.com:keith/swift.vim.git
