@@ -11,6 +11,13 @@ set background=dark
 colorscheme base16-twilight
 set cursorline
 
+hi clear SpellBad
+hi SpellBad cterm=underline
+" Set style for gVim
+hi SpellBad gui=undercurl
+
+
+
 " ,e and ,v open files in the same directory as current file
 cnoremap %% <C-R>=expand('%:h').'/'<cr>
 map <leader>e :edit %%
