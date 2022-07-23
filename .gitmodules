@@ -52,3 +52,6 @@
 [submodule "pack/plugin/start/swift-vim"]
 	path = pack/plugin/start/swift-vim
 	url = git@github.com:keith/swift.vim.git
+[submodule "pack/plugin/start/vim-markdown"]
+	path = pack/plugin/start/vim-markdown
+	url = git@github.com:preservim/vim-markdown.git
