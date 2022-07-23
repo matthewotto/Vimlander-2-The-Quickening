@@ -35,3 +35,7 @@ let g:airline_powerline_fonts = 1
 
 " ALE:
 let g:airline#extensions#ale#enabled = 1
+
+" Markdown:
+let g:vim_markdown_folding_disabled = 1
+"
