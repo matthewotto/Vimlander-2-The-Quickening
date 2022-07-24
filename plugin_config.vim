@@ -35,6 +35,12 @@ let g:airline_powerline_fonts = 1
 
 " ALE:
 let g:airline#extensions#ale#enabled = 1
+let g:ale_fixers = {
+\   '*': ['remove_trailing_lines', 'trim_whitespace'],
+\   'javascript': ['eslint'],
+\   'swift': ['apple-swift-format'],
+\}
+
 
 " Markdown:
 let g:vim_markdown_folding_disabled = 1
