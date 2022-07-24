@@ -24,6 +24,10 @@ To have your very own custom vimrc additions or custom gvimrc just create these 
 
 Then, sprinkle to taste with your defaults, undoing my craziness, etc.  These files are ignored by git and enable fun for all.
 
+## Dependencies
+
+This uses a version of the Hack font from the powerline/fonts repository: https://github.com/powerline/fonts/tree/master/Hack
+
 ## Plugin Management
 
 Plugins are managed using Vim 8's built in package manager. Plugins are found in `pack/colors` and `pack/plugins` and are added as git submodules.
