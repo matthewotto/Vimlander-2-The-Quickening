@@ -26,7 +26,7 @@ Then, sprinkle to taste with your defaults, undoing my craziness, etc.  These fi
 
 ## Dependencies
 
-This uses a version of the Hack font from the powerline/fonts repository: https://github.com/powerline/fonts/tree/master/Hack
+This uses the Hack font from: https://github.com/source-foundry/Hack
 
 ## Plugin Management
 
