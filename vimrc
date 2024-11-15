@@ -12,10 +12,14 @@ colorscheme base16-twilight
 set cursorline
 
 hi clear SpellBad
-hi SpellBad cterm=underline
+hi SpellBad term=reverse
+hi SpellBad ctermfg=211
+hi SpellBad cterm=bold
 " Set style for gVim
 hi SpellBad gui=undercurl
 
+" No error if the first word on a line isn't capitalized
+set spellcapcheck=
 
 
 " ,e and ,v open files in the same directory as current file
