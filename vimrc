@@ -6,8 +6,9 @@ source ~/.vim/plugin_config.vim
 source ~/.vim/auto_commands.vim
 
 " COLOR SUPPORT
-set t_Co=256
+set termguicolors
 set background=dark
+
 colorscheme base16-twilight
 set cursorline
 
