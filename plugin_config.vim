@@ -30,7 +30,7 @@ let NERDSpaceDelims = 1
 " let g:syntastic_check_on_wq = 0
 
 " Airline:
-let g:airline_theme='base16'
+let g:airline_theme='base16_twilight'
 let g:airline_powerline_fonts = 1
 
 " ALE:
