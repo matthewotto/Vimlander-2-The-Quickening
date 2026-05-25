@@ -32,6 +32,7 @@ let NERDSpaceDelims = 1
 " Airline:
 let g:airline_theme='base16_twilight'
 let g:airline_powerline_fonts = 1
+let g:airline_skip_empty_sections = 1
 
 " ALE:
 let g:airline#extensions#ale#enabled = 1
